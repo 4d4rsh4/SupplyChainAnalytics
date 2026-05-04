@@ -1,8 +1,8 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-df = pd.read_csv('DataCoSupplyChainDataset.csv', encoding = 'ISO-8859-1')
-df.to_csv('SupplyChainETL.csv', encoding= 'utf-8', index = False)
+df = pd.read_csv('data/DataCoSupplyChainDataset.csv', encoding = 'ISO-8859-1')
+df.to_csv('data/SupplyChainETL.csv', encoding= 'utf-8', index = False)
 
 engine = create_engine('sqlite:///SupplyChainETL.db')
 

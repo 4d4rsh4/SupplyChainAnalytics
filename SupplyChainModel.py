@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
-df = pd.read_csv('SupplyChainETL.csv')
+df = pd.read_csv('data/SupplyChainETL.csv')
 
 le = LabelEncoder()
 sc = StandardScaler()
@@ -30,3 +30,9 @@ y_pred = model.predict(X_test)
 print('Accuracy Score')
 print(accuracy_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
+
+result = X_test.copy()
+result['actual_late_risk'] = y_test
+result['predicted_late_risk'] = y_pred
+
+result.to_csv('ModelResultsTableau.csv', index = False)
