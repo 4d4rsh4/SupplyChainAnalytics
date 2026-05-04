@@ -14,6 +14,8 @@ df['Order Item Total'] = sc.fit_transform(df[['Order Item Total']])
 df['Order Status'] = le.fit_transform(df[['Order Status']])
 df['Order Region'] = le.fit_transform(df[['Order Region']])
 
+print(le.classes_)
+
 X = df[['Days for shipment (scheduled)',
         'Order Status',
         'Order Region',
@@ -35,4 +37,4 @@ result = X_test.copy()
 result['actual_late_risk'] = y_test
 result['predicted_late_risk'] = y_pred
 
-result.to_csv('ModelResultsTableau.csv', index = False)
+result.to_csv('data/ModelResultsTableau.csv', index = False)
