@@ -21,13 +21,13 @@ This project addresses the critical business challenge of logistics delays withi
 I transformed a flat, 52-column CSV into a 3rd Normal Form (3NF) relational database to optimize query performance and data consistency.
 <img width="1233" height="808" alt="ERDiagram" src="https://github.com/user-attachments/assets/9fcd0083-ec4c-4c70-baaa-78f14c71cecc" />
 
-- Normalization: Separated data into 6 logical entities: Customers, Categories, Items, Orders, Order_Items, and Delivery_Details.
-- Referential Integrity: Implemented Primary and Foreign Key constraints.
+- Separated data into 6 logical entities: Customers, Categories, Items, Orders, Order_Items, and Delivery_Details.
+- Implemented Primary and Foreign Key constraints.
 
 # ETL & Data Pipeline (Python)
 The raw data was 'dirty', containing legacy character encodings and duplicate transactions.
-- Standardization: Converted source data from ISO-8859-1 to UTF-8 for cross-platform compatibility.
-- Automated Migration: Developed a Python script using SQLAlchemy to programmatically de-duplicate and load 180,000+ rows into SQL Server.
+- Standardized source data from ISO-8859-1 to UTF-8 for cross-platform compatibility.
+- Developed a Python script using SQLAlchemy to programmatically de-duplicate and load 180,000+ rows into SQL Server.
   
 # Machine Learning Model (Predictive Analytics)
 The objective was to identify 'Late Delivery Risk' at the time of order entry.
@@ -40,12 +40,12 @@ The objective was to identify 'Late Delivery Risk' at the time of order entry.
  
 # Business Intelligence (Tableau)
 I developed a dual-layered dashboard suite to translate data into action:
-- Executive Overview: Tracks $36M in revenue, profit margins (10.78%), and identifies a global 54% late delivery rate.
-- AI Risk Analysis: Interactive heatmap allowing logistics managers to drill down into high-risk regions and shipping schedules.
+- Tracks $36M in revenue, profit margins (10.78%), and identifies a global 54% late delivery rate.
+- Interactive heatmap that allows logistics managers to drill down into high-risk regions and shipping schedules.
 
 # Key Business Insights
-- Operational Bottleneck: The 4-day shipping schedule represents the highest volume of late-delivery risk, suggesting a need for logistics process re-engineering.
-- Geographic Risk: Central America and Western Europe share similar sales volumes, but Central America exhibits a significantly higher predictive risk ratio.
+- The 4-day shipping schedule represents the highest volume of late-delivery risk, suggesting a need for logistics process re-engineering.
+- Central America and Western Europe share similar sales volumes, but Central America exhibits a significantly higher predictive risk ratio.
   
 # Installation & Usage
 - Clone the Repo: git clone https://github.com/YourUsername/SupplyChainProject.git
