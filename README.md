@@ -12,6 +12,7 @@ This project addresses the critical business challenge of logistics delays withi
 - Visualized strategic insights for executive decision-making.
 
 # Technical Stack
+- Dataset: Kaggle, DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS
 - Database: SQL Server (Relational Schema, 3NF Normalization)
 - Language: Python 3.10+
 - Libraries: Pandas, Scikit-Learn, SQLAlchemy, Matplotlib
