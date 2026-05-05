@@ -1,0 +1,12 @@
+Feature,Importance
+Days for shipment (scheduled),0.08768589
+Order Region,0.0056792563
+order month,0.005739891
+Order Status,0.013488655
+order hour,0.008707333
+order day,0.005536866
+city risk score,0.0077740075
+category risk score,0.0045795897
+Shipping Mode,0.850431
+Market,0.005718334
+Order Item Total,0.0046591354
