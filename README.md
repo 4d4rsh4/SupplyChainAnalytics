@@ -35,9 +35,9 @@ The objective was to identify 'Late Delivery Risk' at the time of order entry.
 - Model: Random Forest Classifier
 - Feature Engineering: Managed categorical data via Label Encoding and scaled financial metrics.
 
-- Precision: 0.69 (Class 1: Late Risk)
-- Recall: 0.66
-- Accuracy: 65% (Baseline)
+- Precision: 0.86 (Class 1: Late Risk)
+- Recall: 0.84
+- Accuracy: 82% 
  
 # Business Intelligence (Tableau)
 I developed a dual-layered dashboard suite to translate data into action:
