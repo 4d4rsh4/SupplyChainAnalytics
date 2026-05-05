@@ -2,7 +2,8 @@
 
 
 <img width="1001" height="763" alt="image" src="https://github.com/user-attachments/assets/6fc1cdf9-c2a1-4431-879b-bdfb51c5dca9" />
-<img width="993" height="796" alt="image" src="https://github.com/user-attachments/assets/0a3c0d97-24eb-46b2-943c-992b758a56d9" />
+<img width="1000" height="798" alt="image" src="https://github.com/user-attachments/assets/8e548f3e-d3d8-4210-8f28-d67c1dd82a18" />
+
 
 # Project Overview
 This project addresses the critical business challenge of logistics delays within a global supply chain. By analyzing 180,000+ transaction records from the DataCo dataset, I developed a comprehensive system that:
