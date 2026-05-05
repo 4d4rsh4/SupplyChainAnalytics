@@ -2,7 +2,8 @@
 
 
 <img width="1001" height="763" alt="image" src="https://github.com/user-attachments/assets/6fc1cdf9-c2a1-4431-879b-bdfb51c5dca9" />
-<img width="1000" height="798" alt="image" src="https://github.com/user-attachments/assets/8e548f3e-d3d8-4210-8f28-d67c1dd82a18" />
+<img width="1001" height="798" alt="image" src="https://github.com/user-attachments/assets/51440953-9551-4357-98b8-53ac1ee56f1f" />
+
 
 
 # Project Overview
@@ -43,10 +44,11 @@ The objective was to identify 'Late Delivery Risk' at the time of order entry.
 # Business Intelligence (Tableau)
 I developed a dual-layered dashboard suite to translate data into action:
 - Tracks $36M in revenue, profit margins (10.78%), and identifies a global 54% late delivery rate.
-- Interactive heatmap that allows logistics managers to drill down into high-risk regions and shipping schedules.
+- Interactive visuals showing top delivery risk factors along with details of some of the risk factors: Shipping Mode, Shipping Days and Region.
 
 # Key Business Insights
-- The 4-day shipping schedule represents the highest volume of late-delivery risk, suggesting a need for logistics process re-engineering.
+- The shipping mode represents the highest volume of late-delivery risk, suggesting a need for logistics process re-engineering.
+- Second Class shipping mode had the highest volume of late-delivery risk among the modes. Second highest is Standard shipping mode, though we have to keep in mind, the shipping volume of Standard delivery is significantly greater than Second Class shipping.
 - Central America and Western Europe share similar sales volumes, but Central America exhibits a significantly higher predictive risk ratio.
   
 # Installation & Usage
