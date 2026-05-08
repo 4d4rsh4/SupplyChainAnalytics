@@ -1,8 +1,8 @@
 # Supply Chain Performance & Predictive Analytics
 
 
-<img width="1001" height="763" alt="image" src="https://github.com/user-attachments/assets/6fc1cdf9-c2a1-4431-879b-bdfb51c5dca9" />
-<img width="1001" height="798" alt="image" src="https://github.com/user-attachments/assets/51440953-9551-4357-98b8-53ac1ee56f1f" />
+<img width="1286" height="882" alt="image" src="https://github.com/user-attachments/assets/e40b79b1-a2a1-41ce-90a1-50a0d90b88a4" />
+
 
 
 
